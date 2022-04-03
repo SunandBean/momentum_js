@@ -1,16 +1,14 @@
-const player = {
-    name: "nico",
-    points: 10,
-    handsome: false,
-    fat: true,
+function sayHello(nameOfPerson, age){
+    console.log("Hello my name is " + nameOfPerson);
+    console.log("I am " + age);
 }
 
-console.log(player)
-console.log(player.name)
-console.log(player["name"])
+sayHello("sunbin", 10)
+sayHello("dal", 20)
+sayHello("nico", 30)
 
-player.fat = false;
-console.log(player)
+function plus(a, b){
+    console.log( a + b )
+}
 
-player.lastName = "chicken";
-console.log(player)
+plus(10,20)
