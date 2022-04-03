@@ -1,6 +1,16 @@
-const playerName = "nico"
-const playerPoints = 121212;
-const playerHandsome = false;
-const playerFat = "little bit";
+const player = {
+    name: "nico",
+    points: 10,
+    handsome: false,
+    fat: true,
+}
 
-const player = ["nico", 1212, false, "little bit"];
+console.log(player)
+console.log(player.name)
+console.log(player["name"])
+
+player.fat = false;
+console.log(player)
+
+player.lastName = "chicken";
+console.log(player)
