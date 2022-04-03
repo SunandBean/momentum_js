@@ -1,3 +1,6 @@
-console.log(document.title)
+const title = document.getElementById("title")
 
-document.title = "Hello! From JS"
+title.innerText = "Got you!"
+
+console.log(title.id);
+console.log(title.className);
